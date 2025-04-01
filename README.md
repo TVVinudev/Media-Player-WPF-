@@ -27,8 +27,8 @@ The **WPF Media Player** is a simple desktop application built using **Windows P
 
 ### **1. Clone the Repository**  
 ```sh
-git clone [https://github.com/yourusername/WPFMediaPlayer.git](https://github.com/TVVinudev/Media-Player-WPF-.git)
-cd WPFMediaPlayer
+git clone https://github.com/TVVinudev/Media-Player-WPF-.git
+cd Media-Player-WPF-
 ```
 
 ### **2. Open in Visual Studio**  
@@ -61,12 +61,6 @@ cd WPFMediaPlayer
 
 ---
 
-## **Screenshots** 📸  
-| Main Interface | Playing Media | Volume Control |
-|---------------|--------------|---------------|
-| ![UI Screenshot](screenshots/main_ui.png) | ![Playing Screenshot](screenshots/playing.png) | ![Volume Screenshot](screenshots/volume.png) |
-
----
 
 ## **Future Enhancements** 🚀  
 🔹 **Seek Bar** – Allow users to navigate through media files  
@@ -76,10 +70,6 @@ cd WPFMediaPlayer
 
 ---
 
-## **License** 📜  
-This project is licensed under the **MIT License**.  
-
----
 
 ## **Contributing** 🤝  
 Feel free to fork this repo, submit PRs, or suggest improvements.  
