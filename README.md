@@ -70,10 +70,4 @@ cd Media-Player-WPF-
 
 ---
 
-
-## **Contributing** 🤝  
-Feel free to fork this repo, submit PRs, or suggest improvements.  
-
-📧 **Contact:** [your-email@example.com](mailto:your-email@example.com)  
-
 Happy Coding! 🎵🎬🚀
