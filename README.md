@@ -27,7 +27,7 @@ The **WPF Media Player** is a simple desktop application built using **Windows P
 
 ### **1. Clone the Repository**  
 ```sh
-git clone https://github.com/yourusername/WPFMediaPlayer.git
+git clone [https://github.com/yourusername/WPFMediaPlayer.git](https://github.com/TVVinudev/Media-Player-WPF-.git)
 cd WPFMediaPlayer
 ```
 
