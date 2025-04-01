@@ -1,0 +1,24 @@
+﻿<Window x:Class="MediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaPlayer"
+        mc:Ignorable="d"
+        Title="MediaPlayer" Height="450" Width="800">
+    <Grid>
+
+        <MediaElement Name="mediaPlayer" Stretch="Uniform" LoadedBehavior="Manual"/>
+
+        <!-- Controls Panel -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Background="Gray" Height="50">
+            <Button Name="btnOpen" Content="Open" Click="BtnOpen_Click" Width="60"/>
+            <Button Name="btnPlay" Content="Play" Click="BtnPlay_Click" Width="60" Visibility="Collapsed" />
+            <Button Name="btnPause" Content="Pause" Click="BtnPause_Click" Width="60" Visibility="Collapsed"/>
+            <Button Name="btnStop" Content="Stop" Click="BtnStop_Click" Width="60"  Visibility="Collapsed"/>
+            <Slider Name="volumeSlider" Margin="15" Width="100" ValueChanged="VolumeSlider_ValueChanged" />
+            <TextBlock Text="Volume" Foreground="White" VerticalAlignment="Center" />
+        </StackPanel>
+
+    </Grid>
+</Window>
